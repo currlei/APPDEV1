@@ -14,6 +14,10 @@ export default function ShopApp() {
     setCartCount((count) => count + 1);
   }
 
+  function handleRemoveOne() {
+    setCartCount((count) => Math.max(0, count - 1));
+  }
+
   // Nested component
   function ProductCard({ product, onAddToCart }) {
     return (
@@ -58,7 +62,7 @@ export default function ShopApp() {
             padding: "8px 14px",
             border: "none",
             borderRadius: "6px",
-            backgroundColor: "#2e7d32",
+            backgroundColor: "#4caf50",
             color: "white",
             cursor: "pointer",
           }}
@@ -74,24 +78,44 @@ export default function ShopApp() {
       style={{
         fontFamily: "Arial, sans-serif",
         padding: "30px",
-        maxWidth: "900px",
-        margin: "0 auto",
       }}
     >
       <h1>🥬 Mini Fruit & Veg Stand</h1>
 
-      <h2 style={{ marginBottom: "25px" }}>
-        {cartCount === 0
-          ? "Cart is empty"
-          : `${cartCount} item${cartCount > 1 ? "s" : ""} in cart`}
-      </h2>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          gap: "12px",
+          marginBottom: "25px",
+        }}
+      >
+        <h2 style={{ margin: 0 }}>
+          {cartCount === 0
+            ? "Cart is empty"
+            : `${cartCount} item${cartCount > 1 ? "s" : ""} in cart`}
+        </h2>
+
+        <button
+          onClick={handleRemoveOne}
+          style={{
+            padding: "8px 14px",
+            border: "none",
+            borderRadius: "6px",
+            backgroundColor: "#f44336",
+            color: "white",
+            cursor: "pointer",
+          }}
+        >
+          Remove one
+        </button>
+      </div>
 
       <div
         style={{
           display: "flex",
           gap: "20px",
           flexWrap: "wrap",
-          justifyContent: "center",
         }}
       >
         {products.map((product) => (
