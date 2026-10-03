@@ -1,0 +1,18 @@
+<button id="backgroundBtn">Choose Background</button>
+
+<p id="statusMessage">Please wait for the message to update.</p>
+
+<script>
+  const backgroundButton = document.getElementById("backgroundBtn");
+
+  backgroundButton.addEventListener("click", () => {
+    const selectedColor = prompt("Enter your favorite background color:");
+    document.body.style.backgroundColor = selectedColor;
+  });
+
+  const statusMessage = document.getElementById("statusMessage");
+
+  setTimeout(() => {
+    statusMessage.textContent = "The page has been updated after 2 seconds!";
+  }, 2000);
+</script>

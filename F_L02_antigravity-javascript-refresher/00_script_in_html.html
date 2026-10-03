@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Javascript Refresher Practice - Lorein</title>
+</head>
+<body>
+
+  <h1>JavaScript Module </h1>
+
+  <!-- Classic script: runs immediately where it sits,
+       no import/export, variables can leak to the global scope -->
+  <script src="legacy.js"></script>
+
+  <!-- Module script: waits for HTML parsing to finish (like defer),
+       runs once, has its own scope, and CAN use import/export -->
+  <script type="module" src="app.js"></script>
+
+  <script type="module">
+    import { studentInfo } from "./15_modules_export.js";
+
+    console.log(studentInfo.name);
+  </script>
+
+</body>
+</html>
