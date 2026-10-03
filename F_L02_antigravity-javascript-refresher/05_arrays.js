@@ -1,10 +1,7 @@
-let favoriteFoods = ["Sinigang", "Palabok", "Sioimai"];
+let favoriteFoods = ["Sinigang", "Palabok", "Siomai"];
 
 favoriteFoods.push("Ice Cream");
-// ["Sinigang", "Palabok", "Sioimai", "Ice Cream"]
-
 favoriteFoods.shift();
-// ["Palabok", "Sioimai", "Ice Cream"]
 
 for (const food of favoriteFoods) {
   console.log(food);

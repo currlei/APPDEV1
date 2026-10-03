@@ -49,19 +49,29 @@ I let the AI explain the code to verify the requirements before allowing it make
 
 
 
-### 04_objects.js.
+### 04_objects.js
 #### Prompt 
  Now let's proceed to 04_objects.js and check the file first. Explain what changed to the previous files and after approval,
   
   create `aboutMe` with name, age, course, and an introduce() method that uses this.name.
   
   Also briefly explain ano yung bagong concept dito compared sa previous files.
-  
+
   Check the output and fix any errors if needed.
-
-
 
 #### Reflection
 In my previous prompt, I accidentally use tagalog at sinubukan kong gamitan ng tagalopg ung prompt ko, now i can understand the code throughly kasi gumagamit siya ng language na naiintindihan ko. Para ko siyang bff kausap na ngayon hahahaha. Sir, nagkamaloi po ako ng lagay nung una, dko nalagay ung propt kasi akala ko yunbg screenshot na titignan nyo so ni remove ko po ung ni commit ko na mali and inedit ko lang ung md file at screenshots isa-isa hehe. If may mali po sa code or di nagmamatch, sorry po. 
 
+### 05_arrays.js 
+#### Prompt 
+ Continue with `05_arrays.js` and check the current file first.
+Before editing, briefly explain what the exercise is practicing and make a short plan. Wait for my approval before making changes.
+  After approval, implement the array exercise and keep the code simple.
+  Run the node 05_arrays.js file
+  After it runs, explain:
+  Which operation changes the original array.
+  Which operation creates a new array.
+  Why `.map()` is useful when displaying lists in React.
 
+#### Reflection
+I learned na pwede ka ring magpa-explain sakanya ng code if hindi mo maintindihan. 
