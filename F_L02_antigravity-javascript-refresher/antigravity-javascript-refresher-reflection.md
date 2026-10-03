@@ -21,7 +21,6 @@ Medyo nahirapan po ako sa pag set up kasi medyo nawala po ako sa instructions, a
 #### Prompt 
  Continuing the 02_variables.js please check the current contents first so we dont redo anything thats already done. Before editing a file,
   tell me what you noticed.
-  
   the file should do the following:
   Show a string, number, and boolean value.
   Use `typeof` so I can see the type returned for each value.
@@ -32,4 +31,20 @@ Medyo nahirapan po ako sa pag set up kasi medyo nawala po ako sa instructions, a
 
 #### Reflection
 I am amazed by the result of the Antigravity becuase it thorougly explained the code to me and sinigurado niya na naffolow yung requirements na binibigay ko sa kaniya. Medyo may pagka mabagal lang siya magbigay ng result but i dont know if its because of the internet connection or hindi. 
+
+### 03_functions.js
+#### Prompt 
+Let's move on to `03_functions.js`. Check the file first and see what is already there before making any changes.
+  Before editing, briefly tell me what you found and make a short plan for how you'll complete the functions. Wag muna mag-edit. I want to
+  review the plan first.
+  
+  After I approve, complete the exercise by:
+  
+  1. greet(name) as a function declaration
+  2. square(num) as an arrow function
+  3. calculator(a, b) returning an object
+
+#### Reflection
+I let the AI explain the code to verify the requirements before allowing it make changes, I learned that it is very important to know ano yung ineedit mo at ano ung gusto mong ipabago kesa sa ipaayos lahat in one go. 
+
 
