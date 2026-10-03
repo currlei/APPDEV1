@@ -17,3 +17,19 @@
 #### Reflection
 Medyo nahirapan po ako sa pag set up kasi medyo nawala po ako sa instructions, and inapply ko yung lesson last meeting regarding sa pag pprompt which is dapat sabihin mo sakanya ung plano, hindi ipaayos lang lahat. 
 
+### 02_variables.js
+#### Prompt 
+ Continuing the 02_variables.js please check the current contents first so we dont redo anything thats already done. Before editing a file,
+  tell me what you noticed.
+  
+  the file should do the following:
+  Show a string, number, and boolean value.
+  Use `typeof` so I can see the type returned for each value.
+  Include a simple comparison where `==` and `===` produce different results.
+  Keep everything simple and don't introduce topics that aren't part of this exercise.
+  
+  after that, create a plan for the next file. Plan only
+
+#### Reflection
+I am amazed by the result of the Antigravity becuase it thorougly explained the code to me and sinigurado niya na naffolow yung requirements na binibigay ko sa kaniya. Medyo may pagka mabagal lang siya magbigay ng result but i dont know if its because of the internet connection or hindi. 
+

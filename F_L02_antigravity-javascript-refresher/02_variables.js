@@ -1,18 +1,15 @@
-let studentName = "Lorein";
-let yearLevel = 3;
-let isBSISStudent = true;
-
-console.log(studentName, typeof studentName);
-console.log(yearLevel, typeof yearLevel);
-console.log(isBSISStudent, typeof isBSISStudent);
-
-let subjects = 6, completedProjects = 4;
-console.log("Total:", subjects + completedProjects);
-console.log("Difference:", subjects - completedProjects);
-console.log("Product:", subjects * completedProjects);
-console.log("Quotient:", subjects / completedProjects);
-
-
-
-console.log("3" == 3);   // true
-console.log("3" === 3);  // false
+ function greet(name) {
+      return "Hello, " + name;
+    }
+    
+    const square = (num) => {
+      return num * num;
+    };
+    
+    function calculator(a, b) {
+      return { sum: a + b, product: a * b };
+    }
+    
+    console.log(greet("Lorein"));
+    console.log(square(4));
+    console.log(calculator(3, 5));
