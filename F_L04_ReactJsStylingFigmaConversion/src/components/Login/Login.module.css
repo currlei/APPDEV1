@@ -113,3 +113,146 @@
     font-weight: var(--font-weight-bold);
     text-decoration: none;
 }
+
+/* ---------- Responsive Styles ---------- */
+
+/* Tablet Landscape (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .login {
+        width: 90vw;
+        height: 85vh;
+        min-height: 540px;
+    }
+
+    .left {
+        width: 38%;
+        padding: 6vh 32px var(--space-6);
+    }
+
+    .tagline {
+        font-size: 26px;
+    }
+
+    .logo {
+        height: 22vh;
+        max-height: 200px;
+    }
+
+    .form {
+        max-width: 85%;
+    }
+
+    .form h2 {
+        margin-bottom: 60px;
+    }
+}
+
+/* Tablet Portrait & Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+    .login {
+        flex-direction: column;
+        width: 92vw;
+        max-width: 520px;
+        height: auto;
+        min-height: unset;
+        overflow: visible;
+        border-radius: 28px;
+    }
+
+    .left {
+        width: 100%;
+        padding: 28px 24px 20px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .tagline {
+        align-self: center;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .logo {
+        height: 72px;
+        max-height: 72px;
+        margin: 16px auto;
+    }
+
+    .link {
+        font-size: 14px;
+    }
+
+    .right {
+        width: 100%;
+        border-radius: 28px;
+        padding: 36px 28px 32px;
+    }
+
+    .form {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .form h2 {
+        margin-bottom: 32px;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .form button {
+        height: 52px;
+    }
+}
+
+/* Mobile Phones (max-width: 480px) */
+@media (max-width: 480px) {
+    .login {
+        width: 95vw;
+        border-radius: 20px;
+    }
+
+    .left {
+        padding: 24px 16px 16px;
+    }
+
+    .tagline {
+        font-size: 19px;
+    }
+
+    .logo {
+        height: 56px;
+        max-height: 56px;
+        margin: 12px auto;
+    }
+
+    .link {
+        display: none;
+    }
+
+    .right {
+        border-radius: 20px;
+        padding: 28px 18px 24px;
+    }
+
+    .form h2 {
+        margin-bottom: 24px;
+        font-size: 22px;
+    }
+
+    .form input {
+        padding: 14px 0 10px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .form button {
+        height: 48px;
+        font-size: 15px;
+    }
+
+    .signup {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+}
+
