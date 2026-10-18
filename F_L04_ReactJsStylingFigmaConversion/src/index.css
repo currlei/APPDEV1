@@ -7,10 +7,11 @@
 }
 
 body {
-  font-family: "Oswald", sans-serif;  
-  font-size: 16px;
-  color: #000;
-  background: #5b86e5;
+  font-family: var(--font-family);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-regular);
+  color: var(--color-text);
+  background: var(--color-primary);
   min-height: 100vh;
   display: grid;
   place-items: center;

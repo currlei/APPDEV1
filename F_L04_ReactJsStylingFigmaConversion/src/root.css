@@ -1,0 +1,39 @@
+:root {
+  /* Colors */
+  --color-primary: #5b86e5;
+  --color-panel: #a9c0f0;
+  --color-surface: #fff;
+  --color-text: #000;
+  --color-text-on-primary: #fff;
+  --color-border: #333;
+  --color-placeholder: #9a9a9a;
+
+  /* Typography */
+  --font-family: "Oswald", sans-serif;
+
+  --font-size-body: 16px;
+  --font-size-heading: 28px;
+  --font-size-tagline: 32px;
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  --line-height-heading: 1.25;
+  --letter-spacing: 1px;
+
+  /* Spacing */
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-7: 28px;
+  --space-9: 36px;
+
+  /* Shared form and panel dimensions */
+  --form-width: 575px;
+  --button-height: 60px;
+  --radius-button: 8px;
+  --radius-panel: 60px;
+
+  /* Effects */
+  --shadow-logo: 0 20px 20px rgba(60, 80, 140, 0.35);
+}
