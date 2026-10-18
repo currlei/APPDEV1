@@ -75,3 +75,17 @@ Before editing, briefly explain what the exercise is practicing and make a short
 
 #### Reflection
 I learned na pwede ka ring magpa-explain sakanya ng code if hindi mo maintindihan. 
+
+### 06_control_structure.js
+#### Prompt 
+Continue with 06_control_structure.js. Check the existing code first because the grade checker is giving the wrong result.
+First, run the file and reproduce the current output. Then explain what is causing the incorrect grade and suggest the smallest safe fix.
+
+Wag muna mag-edit. Let me approve the fix first.
+
+After I approve, apply only the necessary change and run:
+
+node 06_control_structure.js.Check that the grade checker now gives the expected result and briefly explain what was fixed.
+
+#### Reflection
+wala na time sir, explain ko next commit huhu
